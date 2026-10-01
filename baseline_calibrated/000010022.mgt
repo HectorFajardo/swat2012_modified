@@ -1,0 +1,54 @@
+ .mgt file Watershed HRU:22 Subbasin:1 HRU:22 Luse:PAI1 Soil: 116202 Slope: 0-9999 5/21/2025 12:00:00 AM ArcSWAT 2012.10_7.26
+               0    | NMGT:Management code
+Initial Plant Growth Parameters
+               0    | IGRO: Land cover status: 0-none growing; 1-growing
+               0    | PLANT_ID: Land cover ID number (IGRO = 1)
+            0.00    | LAI_INIT: Initial leaf are index (IGRO = 1)
+            0.00    | BIO_INIT: Initial biomass (kg/ha) (IGRO = 1)
+            0.00    | PHU_PLT: Number of heat units to bring plant to maturity (IGRO = 1)
+General Management Parameters
+            0.20    | BIOMIX: Biological mixing efficiency
+           63.20    | CN2: Initial SCS CN II value
+            1.00    | USLE_P: USLE support practice factor
+            0.00    | BIO_MIN: Minimum biomass for grazing (kg/ha)
+           0.000    | FILTERW: width of edge of field filter strip (m)
+Urban Management Parameters
+               0    | IURBAN: urban simulation code, 0-none, 1-USGS, 2-buildup/washoff
+               0    | URBLU: urban land type
+Irrigation Management Parameters
+               0    | IRRSC: irrigation code
+               0    | IRRNO: irrigation source location
+           0.000    | FLOWMIN: min in-stream flow for irr diversions (m^3/s)
+           0.000    | DIVMAX: max irrigation diversion from reach (+mm/-10^4m^3)
+           0.000    | FLOWFR: : fraction of flow allowed to be pulled for irr
+Tile Drain Management Parameters
+        1000.000    | DDRAIN: depth to subsurface tile drain (mm)
+           0.000    | TDRAIN: time to drain soil to field capacity (hr)
+          36.000    | GDRAIN: drain tile lag time (hr)
+Management Operations:
+               1    | NROT: number of years of rotation
+Operation Schedule:
+  5  5           1   40          1800.00000   0.00     0.00000 0.00   0.00  0.00
+  5 30           3   58           374.65288   0.50                              
+  5 30           2                 11.67044                                     
+  6  4           3   58           333.48126   0.50                              
+  6  4           2                 10.38794                                     
+  6  5           3   58            16.46270   0.50                              
+  6  5           2                  0.51281                                     
+  6 17           3   58           296.41786   0.50                              
+  6 17           2                  9.23342                                     
+  6 18           3   58            69.98879   0.50                              
+  6 18           2                  2.18015                                     
+  6 24           3   58           144.08581   0.50                              
+  6 24           2                  4.48827                                     
+  6 25           3   58           181.14921   0.50                              
+  6 25           2                  5.64280                                     
+  6 27           3   58           152.33205   0.50                              
+  6 27           2                  4.74514                                     
+  6 28           3   58           185.25744   0.50                              
+  6 28           2                  5.77077                                     
+  7  3           7        0         0.95000                                     
+  8  7           7        0         0.95000                                     
+  9 11           7        0         0.95000                                     
+ 10 16           7        0         0.95000                                     
+                17                                                              
