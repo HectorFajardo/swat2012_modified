@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\swat.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\swat.dir/objects.a @CMakeFiles\swat.dir\objects1.rsp
+C:\msys64\mingw64\bin\gfortran.exe -Wall -fmax-errors=5 -O2 -Wl,--wrap=malloc -Wl,--whole-archive CMakeFiles\swat.dir/objects.a -Wl,--no-whole-archive -o executable\swat693.mingw64.rel.exe -Wl,--out-implib,libswat693.mingw64.rel.dll.a -Wl,--major-image-version,0,--minor-image-version,0

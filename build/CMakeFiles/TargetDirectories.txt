@@ -1,0 +1,7 @@
+C:/Users/hhfajard/Desktop/swat2012_modified/build/CMakeFiles/swat.dir
+C:/Users/hhfajard/Desktop/swat2012_modified/build/CMakeFiles/edit_cache.dir
+C:/Users/hhfajard/Desktop/swat2012_modified/build/CMakeFiles/rebuild_cache.dir
+C:/Users/hhfajard/Desktop/swat2012_modified/build/CMakeFiles/list_install_components.dir
+C:/Users/hhfajard/Desktop/swat2012_modified/build/CMakeFiles/install.dir
+C:/Users/hhfajard/Desktop/swat2012_modified/build/CMakeFiles/install/local.dir
+C:/Users/hhfajard/Desktop/swat2012_modified/build/CMakeFiles/install/strip.dir
