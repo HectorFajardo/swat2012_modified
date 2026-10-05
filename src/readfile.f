@@ -492,11 +492,10 @@
       if (isol == 1) then
          open (121,file='output.snu')
          write (121,12222) 
-12222   format (t25,'SURFACE',t39,'-------  SOIL PROFILE  -------',/, 
-     &  t8,'DAY',t15,'GISnum',t25,'SOL_RSD',t37,'SOL_P',t48,            
-     &  'NO3',t57,'ORG_N',t67,'ORG_P',t80,'CN'/,t26,                    
-     &  '(t/ha)',t35,'(kg/ha)',t45,                                     
-     &  '(kg/ha)',t55,'(kg/ha)',t66,'(kg/ha)')
+12222 format (t7,'DAY',t15,'GISnum',t22,'LAYER',t32,'SOL_Z',
+     &  t45,'SOLP',t57,'ACTP',t69,'STAP',t80,'FRSHP',t92,'AORGP',
+     &  t104,'SORGP',/,t33,'(mm)',t42,'(kg/ha)',t54,'(kg/ha)',
+     &  t66,'(kg/ha)',t78,'(kg/ha)',t90,'(kg/ha)',t102,'(kg/ha)')
       end if  
 !! headwater code (0=do not route; 1=route)
       i_subhw = 0
